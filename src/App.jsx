@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col bg-amber-200 gap-5   ">
+      <div className="flex flex-col bg-amber-200 gap-5 ">
         <Banner />
  
         <Anasayfa />

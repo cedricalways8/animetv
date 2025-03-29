@@ -14,8 +14,8 @@ const BolumDetay = () => {
                         <div class="flex  md:flex-row flex-col bg-blue-600 p-2 gap-3 " >
                             <div class=" bg-orange-700 place-items-center basis-4/12 " >
                                 <div class="flex flex-col place-items-center gap-5 p-2">
-                                    <div>
-                                        <img src='/resim.jpg '></img>
+                                    <div class="h-1/2" >
+                                        <img class=" "src='resim.jpg '></img>
                                     </div>
                                     <div class="flex ">
                                         <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
