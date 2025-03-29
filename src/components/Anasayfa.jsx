@@ -73,90 +73,99 @@ const Anasayfa = () => {
             <div class="bg-amber-200 h-full w-full  ">
               <img class=" object-cover h-72 w-full" src="resim4.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim5.jpg" />
+            <div class="bg-amber-200 h-72 w-full   ">
+              <img class=" object-cover h-full w-full" src="resim5.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
+              <p class="break-all ">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
+            </div>
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim6.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
           <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
-            <div class="bg-amber-200 h-full w-full  ">
-              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            <div class="bg-amber-200 h-72 w-full  ">
+              <img class=" object-cover h-full w-full" src="resim6.jpg" />
             </div>
-            <div class="bg-blue-700">
+            <div class="bg-blue-700 p-3">
               <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
             </div>
           </div>
+          
 
         </div>
         <div class="place-items-center">
