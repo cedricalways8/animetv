@@ -4,10 +4,10 @@ const Anasayfa = () => {
   return (
     <>
 
-      <div class="bg-blue-400 flex flex-col gap-4  ">
+      <div class="bg-blue-400 flex flex-col gap-4 ">
 
 
-        <div class="content-center bg-red-300  items-center flex flex-col  ">
+        <div class="content-center bg-red-300  items-center flex flex-col ">
           <div class="flex w-full dark:bg-gray-900 justify-center items-center">
             <div class="w-[150px] text-gray-900 dark:text-gray-100">
               <div class="relative group">
@@ -45,7 +45,7 @@ const Anasayfa = () => {
                     class=" w-full block cursor-pointer hover:bg-white dark:hover:bg-gray-900 dark:bg-gray-800 hover:text-link px-3 py-2 rounded-md">
                     yeni (1)
                   </div>
-                  
+
                   <div
                     class=" w-full block cursor-pointer hover:bg-white dark:hover:bg-gray-900 dark:bg-gray-800 hover:text-link px-3 py-2 rounded-md">
                     Freelance (1)
@@ -59,49 +59,49 @@ const Anasayfa = () => {
             </div>
           </div>
 
-         
+
           <div >
             <LetterFilterSearch />
           </div>
         </div>
 
-        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-5 gap-4 bg-amber-900 ">
+        <div class="flex flex-wrap p-5 gap-6 bg-amber-900 place-content-center ">
 
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
+
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
             <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
             <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
           </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
             <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
           </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
+            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
+            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          </div>
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
+            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
+            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          </div>
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
+            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
+            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          </div>
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
+            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
+            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          </div>
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
+            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
+            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          </div>
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
             <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
             <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
           </div>
 
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 ">
+          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
             <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
             <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
           </div>

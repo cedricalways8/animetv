@@ -3,7 +3,7 @@ import React from 'react'
 const  LetterFilterSearch = () => {
     return (
 
-        <div class="flex flex-wrap place-content-center gap-4 m-10 bg-green-300  relative">
+        <div class="flex flex-wrap place-content-center gap-4 m-10 bg-green-300  ">
            <a href="harf?harf=z" class="bg-amber-100" type='button' >a</a>
            <a href="harf?harf=z" >b</a>
            <a href="harf?harf=z" >c</a>
