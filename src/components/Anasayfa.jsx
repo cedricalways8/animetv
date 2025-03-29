@@ -70,7 +70,7 @@ const Anasayfa = () => {
 
           <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
             <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
           </div>
           <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
             <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
