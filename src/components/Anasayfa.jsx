@@ -68,56 +68,94 @@ const Anasayfa = () => {
         <div class="flex flex-wrap p-5 gap-6 bg-amber-900 place-content-center  ">
 
 
-          <div class=" bg-amber-500 place-items-center max-w-3xs ">
-            <div>
-            <img class="object-cover" src="resim.jpg" />
-            </div>
-            <div>
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
-            </div>
-            
-           
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-          </div>
 
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
           </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim5.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
           </div>
-          <div class="overflow-y-auto bg-amber-500 place-items-center p-4 max-w-3xs ">
-            <img src="https://anizm.net/storage/pcovers/181100001704793382.webp" />
-            <p class="break-all">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim6.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
+          </div>
+          <div class=" flex flex-col bg-amber-500 place-items-center max-w-3xs p-3 gap-1 ">
+            <div class="bg-amber-200 h-full w-full  ">
+              <img class=" object-cover h-72 w-full" src="resim4.jpg" />
+            </div>
+            <div class="bg-blue-700">
+              <p class="break-all">xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxxxxxxxxxxxxx</p>
+            </div>
           </div>
 
         </div>
