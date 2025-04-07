@@ -1,0 +1,838 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+}
+
+
+
+body {
+  background-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by xantha01 */
+.card {
+  background-color: white;
+  background-size: cover;
+  position: relative;
+  max-width: 220px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 7.5px;
+  transition: 0.5s ease;
+  color: white;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  opacity: 0.5;
+  transition: 0.3s ease;
+}
+
+.card:hover::after {
+  opacity: 0.25;
+}
+
+.cardHeader {
+  text-transform: uppercase;
+  position: relative;
+  width: fit-content;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.cardHeader::after {
+  content: "";
+  width: calc(100% + 1rem);
+  height: 2.5px;
+  transform: translateX(calc(-100% - 1rem));
+  background: aqua;
+  bottom: -2px;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.details {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  transform: translateY(95%);
+  transition: all 0.5s ease;
+}
+
+.card-button {
+  background-color: aqua;
+  color: black;
+  padding: 2.5px 5px;
+  width: 5em;
+  border-radius: 2.5px;
+  text-align: center;
+}
+
+.card:hover .details {
+  transform: translateY(0%);
+  transition-delay: 0.5s;
+}
+
+.card:hover .cardHeader::after {
+  transform: translateX(-1rem);
+  transition: 0.5s ease;
+  opacity: 1;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+
+
+
+/* From Uiverse.io by boryanakrasteva */
+/* Customize the label (the checkbox-btn) */
+.checkbox-btn {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-btn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-btn label {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 2.5px solid #ffffff;
+  transition: .2s linear;
+}
+
+.checkbox-btn input:checked~.checkmark {
+  background-color: transparent;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  left: 50%;
+  top: 40%;
+  width: 10px;
+  height: 14px;
+  border: 2px solid #0ea021;
+  filter: drop-shadow(0px 0px 10px #0ea021);
+  border-width: 0 2.5px 2.5px 0;
+  transition: .2s linear;
+  transform: translate(-50%, -50%) rotate(-90deg) scale(0.2);
+}
+
+/* Show the checkmark when checked */
+.checkbox-btn input:checked~.checkmark:after {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  animation: pulse 1s ease-in;
+}
+
+.checkbox-btn input:checked~.checkmark {
+  transform: rotate(45deg);
+  border: none;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1.6);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by ForzDz */
+.rating {
+  display: inline-block;
+  opacity: 1;
+
+}
+
+.rating input {
+  display: none;
+  opacity: 1;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.rating label:before {
+  content: '\2605';
+  font-size: 30px;
+  transition: color 0.3s;
+}
+
+.rating input:checked~label,
+.rating label:hover,
+.rating label:hover~label {
+  color: #ffc300;
+  transform: scale(1.2);
+  transition: color 0.3s, transform 0.3s, box-shadow 0.3s;
+  animation: bounce 0.5s ease-in-out alternate;
+}
+
+@keyframes bounce {
+  to {
+    transform: scale(1.3);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by ShadowShahriar */
+.episode-detay-button {
+  --border-radius: 15px;
+  --border-width: 4px;
+  appearance: none;
+  position: relative;
+  padding: 1em 2em;
+  border: 0;
+  background-color: #212121;
+  font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  z-index: 2;
+}
+
+.episode-detay-button::after {
+  --m-i: linear-gradient(#000, #000);
+  --m-o: content-box, padding-box;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: var(--border-width);
+  border-radius: var(--border-radius);
+  background-image: conic-gradient(#488cfb,
+      #29dbbc,
+      #ddf505,
+      #ff9f0e,
+      #e440bb,
+      #655adc,
+      #488cfb);
+  -webkit-mask-image: var(--m-i), var(--m-i);
+  mask-image: var(--m-i), var(--m-i);
+  -webkit-mask-origin: var(--m-o);
+  mask-origin: var(--m-o);
+  mask-clip: var(--m-o);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+  filter: hue-rotate(0);
+  animation: rotate-hue linear 500ms infinite;
+  animation-play-state: paused;
+}
+
+.episode-detay-button:hover::after {
+  animation-play-state: running;
+}
+
+@keyframes rotate-hue {
+  to {
+    filter: hue-rotate(1turn);
+  }
+}
+
+.episode-detay-button,
+.episode-detay-button::after {
+  box-sizing: border-box;
+}
+
+.episode-detay-button:active {
+  --border-width: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by csemszepp */
+.custum-file-upload {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #e8e8e8;
+  background-color: #212121;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 48px 35px -48px #e8e8e8;
+}
+
+.custum-file-upload .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .icon svg {
+  height: 80px;
+  fill: #e8e8e8;
+}
+
+.custum-file-upload .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custum-file-upload .text span {
+  font-weight: 400;
+  color: #e8e8e8;
+}
+
+.custum-file-upload input {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by Kabak */
+.episodefavbutton {
+  height: 30px;
+  margin: 5px;
+  width: 150px;
+  background: #333;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Consolas, Courier New, monospace;
+  border: solid #404c5d 1px;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #2e2d2d, #212121);
+  -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+}
+
+.episodefavbutton:hover {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.episodefavbutton:active {
+  -webkit-box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+  color: #d6d6d6;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by omriluz */
+.form-container {
+  width: 350px;
+  background: linear-gradient(#212121, #212121) padding-box,
+    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-size: 200% 100%;
+  animation: gradient 5s ease infinite;
+  visibility: hidden;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.form-container button:active {
+  scale: 0.95;
+}
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #717171;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  background-color: transparent;
+  border: 1px solid #414141;
+}
+
+.form-container .form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  resize: none;
+  color: #fff;
+  height: 96px;
+  border: 1px solid #414141;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.5;
+}
+
+.form-container .form-group input:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-group textarea:focus {
+  outline: none;
+  border-color: #e81cff;
+}
+
+.form-container .form-submit-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+  font-family: inherit;
+  color: #717171;
+  font-weight: 600;
+  width: 40%;
+  background: #313131;
+  border: 1px solid #414141;
+  padding: 12px 16px;
+  font-size: inherit;
+  gap: 8px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.form-container .form-submit-btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* From Uiverse.io by gharsh11032000 */
+.uploadfrombutton {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 12px;
+  gap: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.uploadfrombutton::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -4px;
+  top: -1px;
+  margin: auto;
+  width: 128px;
+  height: 48px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.uploadfrombutton::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.uploadfrombutton:hover::after {
+  filter: blur(30px);
+}
+
+.uploadfrombutton:hover::before {
+  transform: rotate(-180deg);
+}
+
+.uploadfrombutton:active::before {
+  scale: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by MRez321 */
+.tooltip-container {
+  --background: #7579e7;
+  background: var(--background);
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 14px;
+  border-radius: 10px;
+  width: 8em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  transform: translateX(-50%);
+  padding: 0.3em 0.6em;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  background: var(--background);
+  border-radius: 5px;
+  width: 7em;
+  text-align: center;
+}
+
+.tooltip::before {
+  position: absolute;
+  content: "";
+  height: 0.6em;
+  width: 0.6em;
+  bottom: -0.2em;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  background: var(--background);
+}
+
+.tooltip-container:hover .tooltip {
+  top: -100%;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  animation: shake 500ms ease-in-out forwards;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(2deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.text {
+  position: relative;
+  padding: 0.7em 1.8em;
+  overflow: hidden;
+}
+
+.text::before {
+  content: "(^_^)/";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: inherit;
+  background-color: var(--background);
+  transition: 0.3s;
+}
+
+.tooltip-container:hover .text::before {
+  top: 0;
+}
+
+
+
+
+
+
+
+
+.block {
+ 
+  background: linear-gradient(0deg, black, rgb(44, 43, 43));
+
+}

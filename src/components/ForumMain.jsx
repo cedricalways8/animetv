@@ -1,185 +1,169 @@
 import React from 'react'
-import Banner from './Banner'
+
 const ForumMain = () => {
+
+
     return (
         <>
-            <Banner />
-
-            <div class="flex flex-col p-5">
-                <div class="flex justify-center bg-amber-500">
-                    <div class="flex justify-end">
-
-                        <nav class="relative z-0 inline-flex flex-wrap -space-x-px rounded-md shadow-md">
-                            <a href="#" class="relative inline-flex items-center rounded-l-md p-2 text-sm text-gray-500 hover:bg-gray-200">
-                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                    aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M12.79 5.23a.75.75 0 01-.02 1.06L8.832 10l3.938 3.71a.75.75 0 11-1.04 1.08l-4.5-4.25a.75.75 0 010-1.08l4.5-4.25a.75.75 0 011.06.02z"
-                                        clip-rule="evenodd" />
+            <div className=' bg-cyan-200 p-10 '>
+                <div className='relative  bg-orange-500 '>
+                    <details class="group absolute z-20 w-full md:w-2xl bg-gray-600 px-3.5" open>
+                        <summary
+                            class="flex flex-col sm:flex-row cursor-pointer list-none items-center justify-between py-4 text-lg font-medium text-secondary-900 group-open:text-primary-500">
+                            <p>Baslık ac</p>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="block h-5 w-5 group-open:hidden">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
                                 </svg>
-                            </a>
-
-                            <a href="" class="relative inline-flex items-center text-sm text-gray-500 p-2 md:px-3 md:py-2 hover:bg-gray-200">1</a>
-                            <a href="" class="relative inline-flex items-center text-sm text-gray-500 p-2 md:px-3 md:py-2 hover:bg-gray-200">2</a>
-                            <a href="" class="relative inline-flex items-center text-sm text-gray-500 p-2 md:px-3 md:py-2 hover:bg-gray-200">3</a>
-                            <a href="" class="relative inline-flex items-center border border-indigo-300 text-sm p-2 md:px-3 md:py-2 hover:bg-gray-200">4</a>
-                            <a href="" class="relative inline-flex items-center text-sm text-gray-500 p-2 md:px-3 md:py-2 hover:bg-gray-200">5</a>
-                            <a href="" class="relative inline-flex items-center text-sm text-gray-500 p-2 md:px-3 md:py-2 hover:bg-gray-200">6</a>
-                            <a href="" class="relative inline-flex items-center text-sm text-gray-500 p-2 md:px-3 md:py-2 hover:bg-gray-200">7</a>
-
-                            <a href="" class="relative inline-flex items-center rounded-r-md p-2 text-sm text-gray-500 hover:bg-gray-200 ">
-                                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                                    aria-hidden="true">
-                                    <path fill-rule="evenodd"
-                                        d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                                        clip-rule="evenodd" />
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="hidden h-5 w-5 group-open:block">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12h-15" />
                                 </svg>
-                            </a>
-                        </nav>
+                            </div>
+                        </summary>
+                        <div class="pb-4 text-secondary-500  ">
+                            <div>
+                                <div class="max-w-xl mt-20 mx-auto">
+                                    <div class="w-full flex flex-col gap-5  ">
+                                        <div>
+                                            <label htmlFor=""></label>
+                                            <input type="text" placeholder='Başlık adı' className='bg-white w-full px-1 rounded-2xl' />
+                                        </div>
+                                        <div>
 
-                    </div>
+                                            <textarea rows="10"
+                                                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-1 px-1 mb-3 
+                                            leading-tight focus:outline-none focus:bg-white focus:border-gray-500 overflow-y-auto " placeholder='Başlık Açıklaması'></textarea>
 
+
+                                        </div>
+                                        <div>
+                                            <button class="shadow bg-indigo-600 hover:bg-indigo-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="submit">
+                                                Send Message
+                                            </button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+                    <ol className=" w-full absolute top-20 ">
+                        <li className='flex w-full flex-col md:flex-row p-6 gap-2 '>
+                            <div class="h-13 w-13 overflow-hidden rounded-full ring-2 ring-gray-500  ">
+                                <img src="https://loremflickr.com/g/200/200/girl" className='object-cover h-full w-full' alt="" />
+                            </div>
+                            <div class=" overflow-hidden basis-8/12 bg-amber-400 ">
+                                <p>dsadsadsadsads</p>
+                                <p>açıklama</p>
+                                <p>adasdasd</p>
+                            </div>
+
+                            <div class=" overflow-hidden bg-amber-700 basis-3/12">
+                                <p>asdsadad</p>
+                                <p>asdasdsadsad</p>
+                            </div>
+                        </li>
+                        <li className='flex w-full flex-col sm:flex-row gap-2 p-4'>
+                            <div class="h-13 w-13 overflow-hidden rounded-full ring-2 ring-gray-500 size-1/12 grow-0">
+                                <img src="https://loremflickr.com/g/200/200/girl" className='object-cover h-full w-full' alt="" />
+                            </div>
+                            <div class=" overflow-hidden basis-8/12 bg-amber-400 ">
+                                <p>dsadsadsadsads</p>
+                                <p>açıklama</p>
+                                <p>adasdasd</p>
+                            </div>
+
+                            <div class=" overflow-hiddenbasis-3/12">
+                                <p>asdsadad</p>
+                                <p>asdasdsadsad</p>
+
+
+                                <a class="deletebtn" href="#">I am a button</a>
+
+                            </div>
+                        </li>
+                        <li className='flex w-full flex-col sm:flex-row p-6 gap-2 '>
+                            <div class="h-13 w-13 overflow-hidden rounded-full ring-2 ring-gray-500 size-1/12 grow-0">
+                                <img src="https://loremflickr.com/g/200/200/girl" className='object-cover h-full w-full' alt="" />
+                            </div>
+                            <div class=" overflow-hidden basis-8/12 bg-amber-400 ">
+                                <p>dsadsadsadsads</p>
+                                <p>açıklama</p>
+                                <p>adasdasd</p>
+                            </div>
+
+                            <div class=" overflow-hidden bg-amber-700 basis-3/12 ">
+                                <p>asdsadad</p>
+                                <p>asdasdsadsad</p>
+                            </div>
+                        </li>
+                        <li className='flex w-full flex-col sm:flex-row p-6 gap-2 '>
+                            <div class="h-13 w-13 overflow-hidden rounded-full ring-2 ring-gray-500 size-1/12 grow-0">
+                                <img src="https://loremflickr.com/g/200/200/girl" className='object-cover h-full w-full' alt="" />
+                            </div>
+                            <div class=" overflow-hidden basis-8/12 bg-amber-400 ">
+                                <p>dsadsadsadsads</p>
+                                <p>açıklama</p>
+                                <p>adasdasd</p>
+                            </div>
+
+                            <div class=" overflow-hidden bg-amber-700 basis-3/12">
+                                <p>asdsadad</p>
+                                <p>asdasdsadsad</p>
+                            </div>
+                        </li>
+                        <li className='flex w-full flex-col sm:flex-row p-6 gap-2 '>
+                            <div class="h-13 w-13 overflow-hidden rounded-full ring-2 ring-gray-500 size-1/12 grow-0">
+                                <img src="https://loremflickr.com/g/200/200/girl" className='object-cover h-full w-full' alt="" />
+                            </div>
+                            <div class=" overflow-hidden basis-8/12 bg-amber-400 ">
+                                <p>dsadsadsadsads</p>
+                                <p>açıklama</p>
+                                <p>adasdasd</p>
+                            </div>
+
+                            <div class=" overflow-hidden bg-amber-700 basis-3/12">
+                                <p>asdsadad</p>
+                                <p>asdasdsadsad</p>
+                            </div>
+                        </li>
+                        <li className='flex w-full flex-col sm:flex-row p-6 gap-2 '>
+                            <div class="h-13 w-13 overflow-hidden rounded-full ring-2 ring-gray-500 basis-1/12 grow-0">
+                                <img src="https://loremflickr.com/g/200/200/girl" className='object-cover h-full w-full' alt="" />
+                            </div>
+                            <div class=" overflow-hidden basis-8/12 bg-amber-400 ">
+                                <p>dsadsadsadsads</p>
+                                <p>açıklama</p>
+                                <p>adasdasd</p>
+                            </div>
+
+                            <div class=" overflow-hidden bg-amber-700 basis-3/12">
+                                <p>asdsadad</p>
+                                <p>asdasdsadsad</p>
+                            </div>
+                        </li>
+                        <li className='flex w-full flex-col sm:flex-row p-6 gap-2 '>
+                            <div class="h-13 w-13 overflow-hidden rounded-full ring-2 ring-gray-500 size-1/12 grow-0">
+                                <img src="https://loremflickr.com/g/200/200/girl" className='object-cover h-full w-full' alt="" />
+                            </div>
+                            <div class=" overflow-hidden basis-8/12 bg-amber-400 ">
+                                <p>dsadsadsadsads</p>
+                                <p>açıklama</p>
+                                <p>adasdasd</p>
+                            </div>
+
+                            <div class=" overflow-hidden bg-amber-700 basis-3/12">
+                                <p>asdsadad</p>
+                                <p>asdasdsadsad</p>
+                            </div>
+                        </li>
+                    </ol>
                 </div>
-                <div class=" flex flex-row gap-4">
-                    <div
-                        class="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                        <img class="rounded-full object-cover" src="https://pagedone.io/asset/uploads/1714988283.png"
-                            alt="Jenny wilson image" />
-                    </div>
-                    <div>
-                        <a>başlık linki</a>
-                        <p>ilk yorum</p>
-                    </div>
-                    <div>
-                        13.01.2035
-                    </div>
-                    <div>
-                        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            Button
-                        </button>
-                    </div>
 
-                </div>
-                <div class=" flex flex-row gap-4">
-                    <div
-                        class="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                        <img class="rounded-full object-cover" src="https://pagedone.io/asset/uploads/1714988283.png"
-                            alt="Jenny wilson image" />
-                    </div>
-                    <div>
-                        <a>başlık linki</a>
-                        <p>ilk yorum</p>
-                    </div>
-                    <div>
-                        13.01.2035
-                    </div>
-                    <div>
-                        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            Button
-                        </button>
-                    </div>
 
-                </div>
-                <div class=" flex flex-row gap-4">
-                    <div
-                        class="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                        <img class="rounded-full object-cover" src="https://pagedone.io/asset/uploads/1714988283.png"
-                            alt="Jenny wilson image" />
-                    </div>
-                    <div>
-                        <a>başlık linki</a>
-                        <p>ilk yorum</p>
-                    </div>
-                    <div>
-                        13.01.2035
-                    </div>
-                    <div>
-                        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            Button
-                        </button>
-                    </div>
-
-                </div>
-                <div class=" flex flex-row gap-4">
-                    <div
-                        class="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                        <img class="rounded-full object-cover" src="https://pagedone.io/asset/uploads/1714988283.png"
-                            alt="Jenny wilson image" />
-                    </div>
-                    <div>
-                        <a>başlık linki</a>
-                        <p>ilk yorum</p>
-                    </div>
-                    <div>
-                        13.01.2035
-                    </div>
-                    <div>
-                        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            Button
-                        </button>
-                    </div>
-
-                </div>
-                <div class=" flex flex-row gap-4">
-                    <div
-                        class="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                        <img class="rounded-full object-cover" src="https://pagedone.io/asset/uploads/1714988283.png"
-                            alt="Jenny wilson image" />
-                    </div>
-                    <div>
-                        <a>başlık linki</a>
-                        <p>ilk yorum</p>
-                    </div>
-                    <div>
-                        13.01.2035
-                    </div>
-                    <div>
-                        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            Button
-                        </button>
-                    </div>
-
-                </div>
-                <div class=" flex flex-row gap-4">
-                    <div
-                        class="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                        <img class="rounded-full object-cover" src="https://pagedone.io/asset/uploads/1714988283.png"
-                            alt="Jenny wilson image" />
-                    </div>
-                    <div>
-                        <a>başlık linki</a>
-                        <p>ilk yorum</p>
-                    </div>
-                    <div>
-                        13.01.2035
-                    </div>
-                    <div>
-                        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            Button
-                        </button>
-                    </div>
-
-                </div>
-                <div class=" flex flex-row gap-4">
-                    <div
-                        class="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                        <img class="rounded-full object-cover" src="https://pagedone.io/asset/uploads/1714988283.png"
-                            alt="Jenny wilson image" />
-                    </div>
-                    <div>
-                        <a>başlık linki</a>
-                        <p>ilk yorum</p>
-                    </div>
-                    <div>
-                        13.01.2035
-                    </div>
-                    <div>
-                        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-                            Button
-                        </button>
-                    </div>
-
-                </div>
 
 
             </div>

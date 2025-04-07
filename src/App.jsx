@@ -1,27 +1,35 @@
-import Anasayfa from "./components/Anasayfa"
-import LetterFilterSearch from "./components/LetterFilterSearch"
-import Banner from "./components/Banner"
+import ListEpisode from "./components/ListEpisode"
 import BolumDetay from "./components/BolumDetay"
 import ForumMain from "./components/ForumMain"
 import ForumBaslikDetay from "./components/ForumBaslikDetay"
-import BolumEkle from "./components/BolumEkle"
+
+import Navbar from "./components/Navbar"
+import Filter from "./components/Filter"
+import React from "react"
+
+import BolumIzle from "./components/BolumIzle"
 
 function App() {
 
 
   return (
     <>
-      <div className="flex flex-col bg-amber-200 gap-5 ">
-        <Banner />
- 
-        <Anasayfa />
+      <div className="flex flex-col gap-15 relative ">
+        <Navbar></Navbar>
         <BolumDetay />
-        <ForumMain />
-        <ForumBaslikDetay />
-        <BolumEkle />
+  <BolumIzle/>
+  <ListEpisode/>
+       
+
       </div>
 
+     
+
+
+
+
     </>
+
   )
 }
 
